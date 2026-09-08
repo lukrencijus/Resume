@@ -1,0 +1,156 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{2pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{1pt}]
+
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-1pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubheadingPlain}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{2pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=1pt,parsep=0pt,topsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Lukas Šerelis} \\ \vspace{8pt}
+    {\normalsize
+      \href{tel:+37068979798}{\underline{\textbf{+370 689 79798}}} \hspace{0.6em}$|$\hspace{0.6em}
+      \href{mailto:serelis.luk@gmail.com}{\underline{\textbf{serelis.luk@gmail.com}}} \hspace{0.6em}$|$\hspace{0.6em}
+      \href{https://own.page/lukas}{\underline{\textbf{own.page/lukas}}}
+    } \\ \vspace{4pt}
+    {\small Vilnius, Lithuania}
+\end{center}
+
+\section{Summary}
+\small{Information technology student at Vilnius University, passionate about modern
+technologies and constantly seeking to expand my knowledge of new innovations. Eager to
+grow professionally and continuously enhance my skills. I learn quickly and responsibly,
+paying attention to details and ensuring high-quality work.}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheadingPlain
+    {Software Engineer}{2026-09 - Present}
+    {\underline{\href{https://www.cgi.com/lietuviskai/lt}{CGI}} $\cdot$ Part-time}{Vilnius, Lithuania $\cdot$ Hybrid}
+
+  \resumeSubheading
+    {Trainee, IT Internship (Insurance Field)}{2026-06 - 2026-08}
+    {\underline{\href{https://www.cgi.com/lietuviskai/lt}{CGI}}}{Vilnius, Lithuania $\cdot$ On-site}
+    \resumeItemListStart
+      \resumeItem{Rotated across Development, Systems Analysis, and QA roles in an Agile
+        insurance project.}
+      \resumeItem{Built features using PL/SQL and AI tools.}
+      \resumeItem{Ran feature demos for stakeholders in sprint reviews.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Online Store Curator}{2022 - 2026}
+    {\underline{\href{https://triratukas.lt/apie-mus/}{Triratukas}} $\cdot$ Part-time}{Ukmergė, Lithuania $\cdot$ Hybrid}
+    \resumeItemListStart
+      \resumeItem{Uploaded and edited products; monitored inventory and updated product
+        availability.}
+      \resumeItem{Created and managed ads, and oversaw the company's social media accounts.}
+      \resumeItem{Provided online customer support and trained new employees.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Cashier \& Sales Consultant}{2022 - 2026}
+    {\underline{\href{https://triratukas.lt/apie-mus/}{Triratukas}} $\cdot$ Part-time}{Ukmergė, Lithuania $\cdot$ On-site}
+    \resumeItemListStart
+      \resumeItem{Assisted shoppers with product selection and handled transactions at the
+        cash register.}
+      \resumeItem{Advised customers on product features, promotions, and availability.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+
+  \resumeSubheadingPlain
+    {Vilnius University}{2023 - 2027}
+    {Bachelor's degree, Information Technology}{Vilnius, Lithuania}
+
+  \resumeSubheadingPlain
+    {Ukmergės Antano Smetonos gimnazija}{2019 - 2023}
+    {High School}{Ukmergė, Lithuania}
+
+  \resumeSubheadingPlain
+    {Ukmergė Music School}{2012 - 2018}
+    {}{Ukmergė, Lithuania}
+
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=3pt, topsep=4pt]
+  \small{\item{
+    \textbf{Languages}{: Java, PHP, PL/SQL, C, C++, JavaScript, HTML, CSS} \\[2pt]
+    \textbf{Frameworks}{: Laravel, Next.js, React} \\[2pt]
+    \textbf{Databases}{: PostgreSQL, SQLite} \\[2pt]
+    \textbf{DevOps}{: Docker, CI/CD pipeline automation, Git, Linux system administration} \\[2pt]
+    \textbf{AI tools}{: ChatGPT Codex, Claude Code} \\[2pt]
+  }}
+\end{itemize}
+
+\section{Languages}
+\begin{itemize}[leftmargin=0.15in, label={}, topsep=4pt]
+  \small{\item{
+    \textbf{Lithuanian}: Native \hspace{2em} \textbf{English}: Full professional proficiency
+  }}
+\end{itemize}
+
+\end{document}

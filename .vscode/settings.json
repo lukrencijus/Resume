@@ -1,0 +1,12 @@
+{
+  "latex-workshop.latex.autoClean.run": "onSucceeded",
+
+  "latex-workshop.latex.clean.args": [
+    "-outdir=%OUTDIR%",
+    "-auxdir=%AUXDIR%",
+    "-e",
+    "$clean_ext = \"synctex.gz synctex\";",
+    "-c",
+    "%TEX%"
+  ]
+}
